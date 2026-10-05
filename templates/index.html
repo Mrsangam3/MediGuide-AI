@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MediGuide AI</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <!-- Header -->
+        <header class="chat-header">
+            <div>
+                <h1>🩺 MediGuide AI</h1>
+                <p>Medical Information Assistant</p>
+            </div>
+
+            <div class="status">
+                <span></span>
+                Online
+            </div>
+        </header>
+
+
+        <!-- Chat Area -->
+        <main class="chat-area" id="chatArea">
+
+            <div class="message bot-message">
+
+                <div class="avatar">
+                    🩺
+                </div>
+
+                <div class="message-content">
+                    <strong>MediGuide AI</strong>
+
+                    <p>
+                        Hello! I'm MediGuide AI. I can provide
+                        general information about medicines,
+                        symptoms, and health topics.
+                    </p>
+
+                    <p class="warning">
+                        ⚠️ I provide general health information
+                        and do not replace a doctor or pharmacist.
+                    </p>
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <!-- Input Area -->
+        <footer class="input-area">
+
+            <input
+                type="text"
+                id="messageInput"
+                placeholder="Ask a medical question..."
+                autocomplete="off"
+            >
+
+            <button id="sendButton">
+                Send
+            </button>
+
+        </footer>
+
+    </div>
+
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>

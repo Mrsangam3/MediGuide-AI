@@ -1,0 +1,130 @@
+{
+    "breathing_airway": {
+        "level": "emergency",
+        "signals": [
+            "severe_difficulty_breathing",
+            "unable_to_speak_due_to_breathlessness",
+            "choking_or_unable_to_get_air",
+            "blue_or_gray_lips_or_face",
+            "throat_or_tongue_swelling_with_breathing_difficulty",
+            "rapidly_worsening_breathing",
+            "sudden_severe_shortness_of_breath"
+        ]
+    },
+
+    "chest_circulation": {
+        "level": "emergency",
+        "signals": [
+            "severe_or_crushing_chest_pain",
+            "chest_pain_with_severe_breathlessness",
+            "chest_pain_with_fainting",
+            "chest_pain_with_sweating_or_nausea",
+            "severe_palpitations_with_fainting",
+            "loss_of_consciousness_with_circulatory_symptoms"
+        ]
+    },
+
+    "neurological": {
+        "level": "emergency",
+        "signals": [
+            "sudden_one_sided_weakness",
+            "sudden_one_sided_numbness",
+            "sudden_facial_drooping",
+            "sudden_speech_difficulty",
+            "sudden_confusion",
+            "new_loss_of_consciousness",
+            "new_seizure",
+            "sudden_vision_loss",
+            "sudden_inability_to_walk_or_coordinate",
+            "sudden_extremely_severe_headache"
+        ]
+    },
+
+    "severe_bleeding": {
+        "level": "emergency",
+        "signals": [
+            "uncontrolled_heavy_bleeding",
+            "significant_vomiting_of_blood",
+            "significant_coughing_of_blood",
+            "concerning_black_or_tarry_stool",
+            "bleeding_with_fainting",
+            "bleeding_with_severe_weakness",
+            "bleeding_with_confusion"
+        ]
+    },
+
+    "severe_allergic_reaction": {
+        "level": "emergency",
+        "signals": [
+            "allergic_reaction_with_breathing_difficulty",
+            "tongue_or_throat_swelling",
+            "allergic_reaction_with_fainting",
+            "rapidly_worsening_allergic_symptoms",
+            "allergic_symptoms_with_circulatory_problems"
+        ]
+    },
+
+    "poisoning_or_overdose": {
+        "level": "emergency",
+        "signals": [
+            "suspected_medication_overdose",
+            "unknown_amount_of_potentially_harmful_substance",
+            "toxic_substance_ingestion",
+            "serious_symptoms_after_ingestion",
+            "intentional_poisoning",
+            "intentional_medication_overdose"
+        ]
+    },
+
+    "serious_injury": {
+        "level": "emergency",
+        "signals": [
+            "serious_head_injury_with_loss_of_consciousness",
+            "head_injury_with_new_neurological_symptoms",
+            "suspected_serious_spinal_injury",
+            "major_trauma",
+            "severe_burn",
+            "concerning_electrical_injury",
+            "serious_eye_injury",
+            "severe_crushing_injury",
+            "major_wound_with_uncontrolled_bleeding"
+        ]
+    },
+
+    "pregnancy_postpartum": {
+        "level": "emergency_or_urgent",
+        "signals": [
+            "heavy_pregnancy_related_bleeding",
+            "severe_pregnancy_related_abdominal_pain",
+            "pregnancy_related_fainting",
+            "pregnancy_related_severe_breathing_difficulty",
+            "pregnancy_related_severe_headache_with_visual_symptoms",
+            "pregnancy_related_seizure",
+            "rapidly_worsening_postpartum_symptoms"
+        ]
+    },
+
+    "severe_systemic_illness": {
+        "level": "urgent_or_emergency",
+        "signals": [
+            "severe_illness_with_breathing_difficulty",
+            "new_confusion_during_illness",
+            "difficulty_staying_awake",
+            "fainting_during_illness",
+            "rapid_deterioration",
+            "severe_weakness_with_concerning_symptoms",
+            "severe_dehydration_or_unable_to_keep_fluids_down"
+        ]
+    },
+
+    "immediate_safety_crisis": {
+        "level": "emergency",
+        "signals": [
+            "immediate_intent_to_self_harm",
+            "immediate_intent_to_harm_another_person",
+            "suicide_attempt",
+            "serious_self_poisoning",
+            "unable_to_stay_safe"
+        ]
+    }
+}
